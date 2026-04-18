@@ -249,7 +249,7 @@
             bindings = <
 &kp Q              &kp W             &kp E         &kp R             &kp T                              &kp Y          &kp U        &kp I     &kp O     &kp P
 &kp A              &kp S             &kp D         &kp F             &kp G      &kp LS(LG(S))    &kp B  &kp H          &kp J        &kp K     &kp L     &kp BACKSPACE
-&kp LCTRL          &kp Z             &kp X         &kp C             &kp V      &kp B            &sl 1  &kp N          &kp M        &mkp MB1  &mkp MB2  &kp RET
+&kp LCTRL          &kp Z             &kp X         &kp C             &kp V      &kp B            &sl 1  &kp N          &kp M        &mkp MB1  &mkp MB2  &lt 5 RET
 &mt LSHFT LA(TAB)  &kp LEFT_COMMAND  &kp LEFT_ALT  &kp LEFT_CONTROL  &lt 2 RET  &lt 1 LG(TAB)           &lt 1 LA(TAB)  &lt 2 SPACE                                     &mt RSHFT DEL
             >;
 
