@@ -270,7 +270,7 @@
 &mt LCTL ESC  &kp LEFT_WIN  &kp LEFT_ALT  &trans   &kp SPACE  &kp ESC            &kp TAB  &kp ENTER                               &kp DEL
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp K_VOL_DN C_VOLUME_UP>;
         };
 
         layer_2 {
