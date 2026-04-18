@@ -36,7 +36,29 @@
 };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        Tab {
+            bindings = <&kp TAB>;
+            key-positions = <1 2>;
+        };
+
+        Esc {
+            bindings = <&kp ESC>;
+            key-positions = <11 12>;
+        };
+
+        Bs {
+            bindings = <&kp LC(BACKSPACE)>;
+            key-positions = <7 8>;
+        };
+
+        Ret {
+            bindings = <&kp RET>;
+            key-positions = <19 20>;
+        };
+    };
 
     mo2: mo2 {
         compatible = "zmk,behavior-mod-morph";
