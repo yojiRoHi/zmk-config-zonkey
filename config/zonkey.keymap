@@ -58,6 +58,16 @@
             bindings = <&kp RET>;
             key-positions = <19 20>;
         };
+
+        F4p {
+            bindings = <&kp F4>;
+            key-positions = <6 7>;
+        };
+
+        F4pp {
+            bindings = <&kp LC(F4)>;
+            key-positions = <6 8>;
+        };
     };
 
     mo2: mo2 {
