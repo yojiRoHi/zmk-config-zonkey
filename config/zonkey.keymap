@@ -277,7 +277,7 @@
 &kp CAPSLOCK    &kp F13           &kp F14       &kp F15         &kp F16                           &kp F1   &kp F2     &kp F3   &kp F4   &moC
 &kp KP_NUM      &kp F17           &kp F18       &kp F19         &kp F20    &trans     &kp LC(F4)  &kp F5   &kp F6     &kp F7   &kp F8   &kp ENTER
 &kp INT_HENKAN  &kp INT_MUHENKAN  &kp F21       &kp F22         &kp F23    &kp F24    &kp F4      &kp F9   &kp F10    &kp F11  &kp F12  &kp ENTER
-&mt LCTL ESC    &kp LEFT_WIN      &kp LEFT_ALT  &kp LA(LS(N0))  &kp SPACE  &kp ESC                &kp TAB  &kp ENTER                               &kp DEL
+&lt 3 ESC       &kp LEFT_WIN      &kp LEFT_ALT  &kp LA(LS(N0))  &kp SPACE  &kp ESC                &kp TAB  &kp ENTER                               &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
