@@ -68,6 +68,11 @@
             bindings = <&kp LC(F4)>;
             key-positions = <6 8>;
         };
+
+        sl_1 {
+            bindings = <&sl 1>;
+            key-positions = <24 25>;
+        };
     };
 
     mo2: mo2 {
