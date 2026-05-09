@@ -230,6 +230,13 @@
             bindings = <&kp LESS_THAN &kp GREATER_THAN &kp LEFT>;
             label = "BR4";
         };
+
+        stickL: stickL {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&sl 1>;
+            label = "STICKL";
+        };
     };
 
     behaviors {
