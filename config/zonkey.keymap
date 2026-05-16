@@ -231,12 +231,6 @@
             label = "BR4";
         };
 
-        stickL: stickL {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&sl 1>;
-            label = "STICKL";
-        };
     };
 
     behaviors {
@@ -261,6 +255,15 @@
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_TAP_MOUSE";
             bindings = <&kp>, <&mkp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
+        
+        sl_kp: stick_kp {
+            compatible = "zmk,behavior-hold-tap";
+            label = "sl_kp";
+            bindings = <&kp>, <&sl>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
